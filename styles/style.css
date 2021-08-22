@@ -3,15 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-family: 'Montserrat', sans-serif;
+}
 .container {
     max-width: 1113px;
     margin: 0 auto;
     padding: 0 5px;
 }
-
 .header_block {
     background: url(../img/top-bg.jpg) top center no-repeat;
     background-size: cover;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header {
+    display: flex;
+    flex-basis: 50%;
+}
+nav.nav {
+    padding: 26px 0;
+}
+a.menu_link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+a.menu_link:hover{
+    padding-bottom: 25px;
+    border-bottom: 2px solid #fff;
+}
+.nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav ul li:last-child {
+    margin-right: 0;
 }
