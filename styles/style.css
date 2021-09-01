@@ -15,15 +15,15 @@ html{
     background: url(../img/top-bg.jpg) top center no-repeat;
     background-size: cover;
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
 }
 .header {
     display: flex;
-    flex-basis: 50%;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.364);
 }
 nav.nav {
     padding: 26px 0;
+    width: 50%;
 }
 a.menu_link {
     text-decoration: none;
@@ -31,10 +31,12 @@ a.menu_link {
     font-size: 16px;
     font-weight: 500;
     padding: 10px;
+    transition: .3s all step-start;
 }
 a.menu_link:hover{
     padding-bottom: 25px;
     border-bottom: 2px solid #fff;
+    opacity: .8;
 }
 .nav ul li {
     display: inline-block;
@@ -42,4 +44,26 @@ a.menu_link:hover{
 }
 .nav ul li:last-child {
     margin-right: 0;
+}
+.main__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 830px;
+}
+.main__banner_title {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.main__banner_text {
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    max-width: 800px;
+    text-align: center;
+    line-height: 64px;
 }
