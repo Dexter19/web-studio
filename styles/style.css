@@ -88,6 +88,7 @@ a.menu_link:hover{
 }
 section.section_1 {
     padding-top: 110px;
+    padding-bottom: 105px;
 }
 .section_1_title {
     font-family: 'Montserrat', sans-serif;
@@ -107,4 +108,53 @@ section.section_1 {
     margin: 50px auto 70px;
     line-height: 25.36px;
     text-align: center;
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+}
+.service_part {
+    display: flex;
+    max-width: 353px;
+}
+.service_part_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.service_part_block {
+    padding-top: 40px;
+    padding-left: 15px;
+}
+p.service_part_text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    line-height: 22.19px;
+}
+.service_button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    width: 200px;
+    background-color: #4985FF;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: .3s all ease;
+    margin: 55px auto 0;
+}
+.service_button:hover {
+    background-color: #5990ff;
+}
+.sp_img {
+    height: 119px;
+}
+.section_2 {
+    background-color: #F6F6F8;
 }
