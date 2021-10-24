@@ -158,3 +158,15 @@ p.service_part_text {
 .section_2 {
     background-color: #F6F6F8;
 }
+.section_2_row {
+    display: flex;
+    justify-content: space-between;
+}
+.section_2_img {
+    background: url(/img/section_2_img.png) 0 0 no-repeat;
+    height: 420px;
+    width: 500px;
+}
+.section_2_block{
+    max-width: 489px;
+}
