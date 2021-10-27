@@ -31,7 +31,7 @@ a.menu_link {
     font-size: 16px;
     font-weight: 500;
     padding: 10px;
-    transition: .3s all step-start;
+    transition: .3s all ease;
 }
 a.menu_link:hover{
     padding-bottom: 25px;
@@ -214,4 +214,38 @@ p.service_part_text {
     font-size: 16px;
     font-weight: 400;
     color: #999;
+}
+.section_3 {
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    padding-top: 100px;
+}
+.section_3_title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.66px;
+    color: #fff;
+}
+.section_3_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_3_title {
+    max-width: 515px;
+}
+.section_3_button {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    width: 200px;
+    background-color: #4985FF;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: .3s all ease;
+}
+.section_3_button:hover {
+    background-color: #5990ff;
 }
