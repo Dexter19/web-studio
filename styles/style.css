@@ -189,7 +189,9 @@ p.service_part_text {
     font-weight: 500;
     line-height: 19.5px;
     color: #4985FF;
+    transition: .3s all ease;
 }
+
 .line {
     width: 100%;
     height: 2px;
@@ -218,6 +220,7 @@ p.service_part_text {
 .section_3 {
     background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
     padding-top: 100px;
+    height: 490px;
 }
 .section_3_title {
     font-size: 36px;
@@ -248,4 +251,32 @@ p.service_part_text {
 }
 .section_3_button:hover {
     background-color: #5990ff;
+}
+.row_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -230px;
+}
+.ft {
+    color: #4985FF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 20px 0;
+}
+.card_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #999;
+    line-height: 25.36px;
+    margin-bottom: 20px;
+}
+.card_link {
+    color: #4985FF;
+    font-weight: 500;
+    font-size: 16px;
 }
