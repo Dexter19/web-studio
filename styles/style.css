@@ -167,7 +167,7 @@ p.service_part_text {
 .section_2_img {
     background: url(/img/section_2_img.png) 0 0 no-repeat;
     height: 420px;
-    width: 500px;
+    width: 510px;
 }
 .section_2_block{
     max-width: 489px;
@@ -279,4 +279,23 @@ p.service_part_text {
     color: #4985FF;
     font-weight: 500;
     font-size: 16px;
+}
+section.section_cards {
+    padding-bottom: 25px;
+}
+.section_4 {
+    background-color: #F6F6F8;
+}
+.sec_4_title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.sec_4_text {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 730px;
+    line-height: 25.36px;
+    color: #999;
 }
