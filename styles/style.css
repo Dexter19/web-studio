@@ -285,11 +285,14 @@ section.section_cards {
 }
 .section_4 {
     background-color: #F6F6F8;
+    padding-top: 110px;
+    padding-bottom: 130px;
 }
 .sec_4_title {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    margin-bottom: 50px;
 }
 .sec_4_text {
     font-size: 16px;
@@ -298,4 +301,29 @@ section.section_cards {
     max-width: 730px;
     line-height: 25.36px;
     color: #999;
+    margin-bottom: 70px;
+}
+.img_blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.our_projects {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    width: 200px;
+    background-color: #4985FF;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: .3s all ease;
+    margin: 50px auto 0;
+}
+.our_projects:hover {
+    background-color: #5990ff;
+}
+.section_5 {
+    background: url(/img/video-bg.png) 0 0 no-repeat;
 }
